@@ -54,8 +54,7 @@ overflow: hidden;
 }
 
 header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -163,11 +162,11 @@ header {
     color: #FFF;
     background-color: var(--color-iris);
     cursor: pointer;
-    padding: 16px 32px 16px 32px;
+    padding: 16px 32px;
     border-radius: 4px;
     justify-content: center;
     display: block;
-    max-width: 196px;
+    max-width: 169px;
     height: 56px;
     border: none;
 }
@@ -209,7 +208,7 @@ header {
 .button-section-button:focus {
     color: var(--color-white);
     background-color: var(--color-ocean);
-    border: 1px solid;
+    border: 1px solid transparent;
 }
 
 .section-description {
@@ -284,6 +283,7 @@ h2 {
 .portfolio-desc {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .list-title {
