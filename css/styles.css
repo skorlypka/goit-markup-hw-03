@@ -227,7 +227,7 @@ overflow: hidden;
     gap: 24px;
 }
 
-.desc-item {
+.desc-list-item {
     width: calc((100% - 72px) / 4);
 }
 
