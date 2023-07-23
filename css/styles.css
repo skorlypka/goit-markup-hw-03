@@ -67,13 +67,14 @@ overflow: hidden;
     display: flex;
 }
 
-.div-header {
-    
-}
+.div-header {}
 
 .header-menu-list {
     align-items: center;
     gap: 40px;
+}
+
+.header-menu-item {
     padding: 24px 0;
 }
 
@@ -82,7 +83,7 @@ overflow: hidden;
 }
 
 .header-address-list {
-    margin-left: auto;
+    margin-left: 332px;
 }
 
 .header-logo {
