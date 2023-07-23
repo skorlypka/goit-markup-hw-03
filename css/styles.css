@@ -74,9 +74,11 @@ overflow: hidden;
     gap: 40px;
 }
 
-.header-menu-item {
+.header-link {
     padding: 24px 0;
 }
+
+.header-menu-item {}
 
 .header-address-menu {
     gap: 40px;
