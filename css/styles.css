@@ -82,12 +82,16 @@ overflow: hidden;
     margin-right: 40px;
 }
 
-.last-item {
+.header-menu-item:last-child {
     margin-right: 0;
 }
 
-.header-address-menu {
-    gap: 40px;
+.header-addrress-item {
+    margin-right: 40px;
+}
+
+.header-addrress-item:last-child {
+    margin-right: 0;
 }
 
 .header-address-list {
