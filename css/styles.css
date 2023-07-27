@@ -150,6 +150,7 @@ overflow: hidden;
     text-align: center;
     letter-spacing: 0.02em;
     padding: 0 257px 48px;
+    max-width: 496px;
 }
 
 .section_title {
@@ -195,10 +196,10 @@ overflow: hidden;
 
 .section-button-list{
     display: flex;
-    padding: 96px 427px 72px;
+    padding: 0 427px;
     gap: 24px;
     justify-content: center;
-    
+    margin-bottom: 72px;
 }
 
 .button-section-button {
@@ -229,7 +230,7 @@ overflow: hidden;
 }
 
 .desc-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .title-doing {
@@ -278,7 +279,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    padding-bottom: 120px;
 }
 
 .portfolio-list-item{
@@ -301,12 +301,15 @@ h2 {
     margin-bottom: 8px;
 }
 
-.section-services {}
+.section-services {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 footer {
     background-color: var(--color-grey);
     color: var(--color-cloud);
-    padding: 101.5px 864px 100px 156px;
+    padding: 100px 0;
 }
 
 .footer-logo {
